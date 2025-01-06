@@ -123,9 +123,9 @@ const tech = () => {
     },
     {
       title: "React Native",
-      id: 12,
-      main: "https://www.svgrepo.com/svg/374032/reactjs",
-      desc: "An open-source framework created by Meta for building native apps using React.",
+      id: 3,
+      main: "/icons/react-original.svg",
+      desc: "A free and open-source front-end JavaScript library for building user interfaces based on components",
       tag: "develop",
       bg: "bg-blue-50",
       text: "text-blue-500",

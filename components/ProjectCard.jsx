@@ -54,7 +54,7 @@ const ProjectCard = () => {
       image: eCMS,
       title: "eCMS ChildLife Foundation",
       description: "A Complaint management system for a ChildLife Foundation",
-      link: "https://nikestore-polly.netlify.app/",
+      link: "https://childlifefoundation.org/",
       target: "_blank",
     },
   ];
