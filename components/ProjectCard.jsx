@@ -10,46 +10,50 @@ import redeye from "@/public/work/red-eye.jpg";
 import evo from "@/public/work/evo.jpg";
 import notion from "@/public/work/notion.jpg";
 import nike from "@/public/work/nike.jpg";
+import training from "@/public/work/training.png";
+import eCMS from "@/public/work/eCMS.jpg";
+import HK from "@/public/work/HK.jpg";
+import SPP from "@/public/work/SPP.jpg";
 
 const ProjectCard = () => {
   const data = [
     {
       id: 1,
-      image: aizen,
-      title: "Aizen",
-      description: "Create beautiful images and gifs of your source code",
-      link: "https://aizen.netlify.app/",
+      image: training,
+      title: "Training Dashboard",
+      description: "Management System for Training Programmes",
+      link: "https://training.pphisindh.org/",
       target: "_self",
     },
     {
       id: 2,
-      image: kamui,
-      title: "Kamui",
-      description: "Kanban board for planner with superpowers",
-      link: "https://kamui-kanban.netlify.app/",
+      image: HK,
+      title: "Hamara Kissan",
+      description: "Makes life easier for farmers and traders",
+      link: "http://hamarakissan.com/",
       target: "_self",
     },
     {
       id: 3,
-      image: pokedex,
-      title: "Pokedex",
-      description: "Gotta Catch'em All. Explore your Pokemon",
-      link: "https://pokedex-polly.netlify.app/",
+      image: SPP,
+      title: "Sheeba's Play Place",
+      description: "A beautiful educational institute for kids",
+      link: "https://play.google.com/store/apps/details?id=com.eteamid.spp&pcampaignid=web_share",
       target: "_self",
     },
     {
       id: 4,
       image: evo,
-      title: "Evo Gym",
-      description: "Gym Landing Page",
-      link: "https://evogymm.netlify.app/",
+      title: "ChatDocuments",
+      description: "a platform to upload files and ask questions",
+      link: "https://www.chatpdf.com/?utm_source=google&utm_medium=cpc&utm_campaign=20999309892&utm_term=chatpdf&utm_content=725197736766&device=c&matchtype=e&network=g&adposition=&gclid=Cj0KCQiAst67BhCEARIsAKKdWOk3HE7p9xjQ6Vbl6acTTEVHyW8Ec5O_b2fqGNzYQ8X339d_jdtcfJ0aAus4EALw_wcB&gad_source=1",
       target: "_blank",
     },
     {
       id: 5,
-      image: nike,
-      title: "Nike Store",
-      description: "Nike Store Landing Page",
+      image: eCMS,
+      title: "eCMS",
+      description: "A Complaint management system for a company",
       link: "https://nikestore-polly.netlify.app/",
       target: "_blank",
     },
