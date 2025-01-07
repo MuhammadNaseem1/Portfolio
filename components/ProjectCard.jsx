@@ -52,7 +52,7 @@ const ProjectCard = () => {
     {
       id: 5,
       image: eCMS,
-      title: "eCMS ChildLife Foundation",
+      title: "eCMS ChildLife",
       description: "A Complaint management system for a ChildLife Foundation",
       link: "https://childlifefoundation.org/",
       target: "_blank",
