@@ -12,7 +12,7 @@ const Experience = () => {
   const currentTheme = theme === "system" ? systemTheme : theme;
 
   const today = new Date();
-  const startDate = new Date(2022, 6);
+  const startDate = new Date(2020, 2);
   let diffYears = today.getFullYear() - startDate.getFullYear();
   let diffMonths = today.getMonth() - startDate.getMonth();
   if (
@@ -40,11 +40,11 @@ const Experience = () => {
       </div>
       <div className="w-[80%] mx-auto">
         <div className="text-center max-w-2xl mx-auto tracking-normal leading-5 text-base sm:text-[1.1rem] lg:text-lg">
-          During these years of Frontend Mobile and Web Development Experience, I have
-          developed a strong problem-solving and critical thinking skills, and
-          am able to quickly adapt to new technologies and methods of working.
-          Given are some skill-set that I have learned and am still actively
-          learning as days goes by
+          During these years of Fullstack Mobile and Web Development
+          Experience, I have developed strong problem-solving and critical
+          thinking skills, and am able to quickly adapt to new technologies
+          and methods of working. Given are some skill-sets that I have
+          learned and am still actively learning as days go by
         </div>
         <div className="flex justify-center select-none space-x-8 items-center  my-4">
           <svg
@@ -74,10 +74,11 @@ const Experience = () => {
             Development
           </div>
           <div className="font-normal sm:text-[0.95rem] md:text-base text-center">
-            With a focus on React Native, React.js and Next.js centered tools, specialize in
-            crafting visually captivating and intuitively navigable websites.
-            Infusing each project with a touch of personality is my signature
-            touch.
+            With a focus on React Native, React.js and Next.js on the
+            frontend, and ASP.NET Core and Node.js on the backend, I
+            specialize in crafting visually captivating, well-architected
+            applications from the database up to the UI. Infusing each
+            project with a touch of personality is my signature touch.
           </div>
         </div>
         <div className="drop-shadow-xl flex flex-col space-y-4 mx-6 md:mx-20 lg:mx-0 md:w-[70%] lg:w-[80%] max-w-2xl rounded-[1.4rem] p-4 rounded-tl-none">

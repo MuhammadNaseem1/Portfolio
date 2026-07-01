@@ -74,11 +74,14 @@ export default function Home() {
           </div>
           <div className="mt-12 text-base md:text-xl lg:text-xl xl:text-xl 2xl:text-xl">
             <p className="sm:leading-6 md:leading-6 lg:leading-8">
-              A wizard who loves design and code. I develop modern, reactive,
-              and user-friendly web applications using the latest technologies
-              currently. Believe a perfect blend of user inteface architecture
-              is one, where the goals and needs are accounted for in an elegant,
-              efficient, and robust design of the user interface.
+              A wizard who loves design and code. I'm a Fullstack Software
+              Engineer who builds modern, reactive, and user-friendly web and
+              mobile applications — from React.js and React Native frontends
+              to ASP.NET Core and Node.js backends, with Oracle, SQL Server,
+              and MongoDB powering the data layer. Believe a perfect blend of
+              interface architecture is one where the goals and needs are
+              accounted for in an elegant, efficient, and robust design, end
+              to end.
             </p>
           </div>
         </div>

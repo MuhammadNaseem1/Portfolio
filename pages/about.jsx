@@ -77,18 +77,21 @@ export default function About() {
           <CategoryCard />
           <div className=" text-[0.92rem] text-base mx-12 font-light dark:text-white text-gray-900">
             <p className="mt-6 mb-12 font-normal">
-              React Native Engineer who develops modern, reactive, and
-              user-friendly web applications using the latest technologies.{" "}
+              Fullstack Software Engineer who builds modern, reactive, and
+              user-friendly web and mobile applications using the latest
+              technologies.{" "}
               <span className="inline-flex items-baseline">
                 <Image
                   src={Rocket}
                   alt="rocket"
                   className="self-center w-5 h-5 mx-1"
                 />
-              </span>{" "}
-              Believe a perfect blend of UI architecture is one, where the goals
-              and needs are accounted for in an elegant, efficient, and robust
-              design of the user interface{" "}
+              </span>{" "}  
+              Currently working at Alhabib Asset Management, designing and
+              maintaining responsive frontends with React.js and React Native
+              while building scalable backend services with ASP.NET Core, and
+              optimizing Oracle databases with complex queries, stored
+              procedures, and packages.{" "}
               <span className="inline-flex items-baseline">
                 <Image
                   src={Sparkles}
@@ -96,11 +99,12 @@ export default function About() {
                   className="self-center w-5 h-5 mx-1"
                 />
               </span>{" "}
-              Experience in React Native, React.js, Next.js, and state management like
-              Redux.js with proficiency in web technologies like JavaScript,
-              Typescript, Tailwind CSS and SASS. building large-scale web
-              applications, cross-browser platforms, and design constraints on
-              the Mobile and web, and building responsive user interfaces.{" "}
+              Experience across the full stack with React Native, React.js,
+              Next.js, Node.js, Express, and ASP.NET Core, with proficiency in
+              JavaScript, TypeScript, C#, Redux Toolkit, Tailwind CSS, and
+              databases like Oracle, SQL Server, MySQL, PostgreSQL, and
+              MongoDB. Comfortable owning a feature end-to-end — from
+              pixel-perfect UI to API design to database performance.{" "}
               <span className="inline-flex items-baseline">
                 <Image
                   src={Flash}
@@ -121,13 +125,13 @@ export default function About() {
               <span className="text-red-700 font-bold">GMail</span>{" "}
               <a
                 onClick={() =>
-                  navigator.clipboard.writeText("alinaseem366@gmail.com")
+                  navigator.clipboard.writeText("alinaseeem366@gmail.com")
                 }
                 className=" underline underline-offset-4 decoration-2 decoration-purple-400 group select-all font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select "
                 href="mailto:shikhar.pranjal3@gmail.com"
               >
                 {" "}
-                alinaseem366@gmail.com
+                alinaseeem366@gmail.com
               </a>{" "}
               or <span className="text-blue-700 font-bold">LinkedIn</span>{" "}
               <a
@@ -151,16 +155,6 @@ export default function About() {
                 @Naseem{" "}
               </a>{" "}
             </p>
-          </div>
-          <div className="flex mx-auto justify-center mt-16 select-none">
-            <span className="font-black font-app text-2xl md:text-3xl align-text-bottom tracking-wider mx-3 md:mx-6">
-              dattebayo
-            </span>
-            {currentTheme === "dark" ? (
-              <Image src={love_white} alt="love" width="30" className="-mt-4" />
-            ) : (
-              <Image src={love_black} alt="love" width="30" className="-mt-4" />
-            )}
           </div>
         </div>
       </main>
